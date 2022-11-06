@@ -256,28 +256,28 @@ function App() {
             ></textarea>
             <button
               type="submit"
-              className="bg-gradient-to-r from-green-800 to-blue-500 text-white rounded-md mt-5 h-10 w-80"
+              className="bg-gradient-to-r from-green-800 to-blue-500 text-white rounded-md mt-5 h-10 w-full"
             >
               Send It!
             </button>
           </form>
-          <div className="dark:text-white text-3xl flex flex-col justify-around">
+          <div className="dark:text-white max-w-full text-sm md:text-3xl flex flex-col justify-around overflow-auto">
             <a
-              className=" block bg-gradient-to-r  from-green-800 to-blue-500 text-white px-4 py-2 rounded-md "
+              className="text-center block bg-gradient-to-r mt-3 w-full from-green-800 to-blue-500 text-white px-4 py-2 rounded-md "
               href="https://drive.google.com/file/d/1VxrjTP7BKddW0kKgL9y-D7i4vtJciYf0/view?usp=sharing"
               target="_blank"
             >
               Resume
             </a>
-            <div className="flex  justify-center items-center rounded-lg p-3 border-black dark:border-gray-300 border-solid border-2">
+            <div className="flex  mt-3 w-full justify-center items-center rounded-lg p-3 border-black dark:border-gray-300 border-solid border-2">
               <AiFillPhone />
               <span className="ml-3"> +972 55-9918007</span>
             </div>
-            <div className="flex items-center  rounded-lg p-3 border-black dark:border-gray-300 border-solid border-2">
+            <div className="flex w-full items-center mt-3  overflow-auto  rounded-lg p-3 border-black dark:border-gray-300 border-solid border-2">
               <AiOutlineMail />
-              <span className="ml-3"> galkinallan@gmail.com</span>
+              <span className="ml-3 w-full "> galkinallan@gmail.com</span>
             </div>
-            <div className="text-5xl flex justify-center gap-16 py-3 mb-2 ">
+            <div className="text-2xl md:5xl w-full flex justify-center gap-16 py-3 mb-2 ">
               <a href="https://github.com/galkinallan" target="_blank">
                 <AiFillGithub className="dark:text-white" />
               </a>

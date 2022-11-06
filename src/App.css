@@ -4,12 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: "Roboto", sans-serif;
-}
-
 .body {
-  background-color: white;
+  background-image: linear-gradient(#ffffff, #ffffff);
+  background-color: #000000;
 }
 
 .dark {
@@ -56,4 +53,12 @@ canvas {
   min-width: 100%;
   border-radius: 1rem;
   text-align: center;
+}
+
+form {
+  overflow: auto;
+}
+input,
+textarea {
+  max-width: 100%;
 }
